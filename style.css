@@ -1,12 +1,29 @@
 body{
     text-align: center;
+    background-color: black;
+    color: white;
 }
 
 .clickBox{
     margin: auto;
-    height: 200px;
-    width: 300px;
+    height: 300px;
+    width: 400px;
     background-color: aquamarine;
-    border: 5px solid black;
+    border: 2px solid rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
 }
 
+.clickBox{
+    user-select: none;
+}
+
+#click-box-text{
+    color: red;
+    border: 2px solid green;
+    background-color: black;
+    padding: 5px 10px;
+}
